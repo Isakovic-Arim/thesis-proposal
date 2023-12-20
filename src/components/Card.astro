@@ -10,20 +10,22 @@ interface Props {
 const { img, href, title, body } = Astro.props;
 ---
 
-<li class="link-card">
-	<a href={href}>
-		<Image src={img} alt="GitHub profile" width="250" height="250" />
-		<h2 class="text-center">
-			{title}
-		</h2>
-		<p>
-			{body}
-		</p>
+<li class="link-card md:w-full">
+	<a href={href} class="grid">
+		<Image src={img} alt="GitHub profile" class="w-full md:w-full" width="100" height="100" />
+		<div>
+			<h2 class="text-center">
+				{title}
+			</h2>
+			<p>
+				{body}
+			</p>
+		</div>
 	</a>
 </li>
+
 <style>
 	.link-card {
-		width: 33%;
 		list-style: none;
 		display: flex;
 		padding: 1px;
