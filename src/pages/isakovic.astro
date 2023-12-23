@@ -1,0 +1,54 @@
+---
+import {ViewTransitions} from 'astro:transitions';
+import Layout from "../layouts/Layout.astro";
+import {Image} from "astro:assets";
+import Listing from "../components/Listing.astro";
+---
+<Layout title="Isakovic Arim">
+    <main class="xl:flex grid place-items-center justify-center gap-x-10 h-screen text-white m-20 xl:m-auto">
+        <div class="xl:w-1/3">
+            <header class="flex items-center gap-4 mb-4">
+                <h1 class="text-3xl text-white">Isakovic Arim</h1>
+                <hr class="w-7/12">
+            </header>
+            <section class="text-lg">
+                <p>Hi! My name is Arim and I enjoy being virtual.</p>
+                <p>I am currently attending the higher technical college in leonding, austria.</p>
+                <p>With my ongoing four years of informatics I have learned how to write robust code,
+                    work in teams and navigate my way around different software fields.</p>
+                <p>When I have time, I usually immerse myself in the world of video-games.</p>
+                <p class="mb-4">Here are a few technologies I have been working with recently:</p>
+                <div class="md:flex grid grid-cols-2 justify-between mb-10">
+                    <ul>
+                        <Listing content="Java"/>
+                        <Listing content="Spring"/>
+                        <Listing content="C#"/>
+                        <Listing content="ASP.NET Core"/>
+                    </ul>
+                    <ul>
+                        <Listing content="Rust"/>
+                        <Listing content="React"/>
+                        <Listing content="TypeScript"/>
+                    </ul>
+                    <ul>
+                        <Listing content="MongoDB"/>
+                        <Listing content="Oracle"/>
+                        <Listing content="PostgreSQL"/>
+                        <Listing content="Hibernate"/>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div>
+            <Image transition:name="profile" transition:animate="slide"
+                   src='https://avatars.githubusercontent.com/u/90853097?v=4'
+                   alt="GitHub profile"
+                   width="250" height="250"
+            />
+            <div class="flex">
+                <a transition:animate="slide" href="https://www.linkedin.com/in/arim-isakovic-59774224a/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+                <a transition:animate="slide" href="https://github.com/Isakovic-Arim"><img src="https://skillicons.dev/icons?i=github" /></a>
+            </div>
+        </div>
+    </main>
+</Layout>
