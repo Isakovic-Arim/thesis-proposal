@@ -1,0 +1,10 @@
+---
+import { languages } from '../i18n/ui';
+---
+<ul class="text-white">
+    {Object.entries(languages).map(([lang, label]) => (
+            <li>
+                <button onclick="">{label}</button>
+            </li>
+    ))}
+</ul>

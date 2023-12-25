@@ -3,6 +3,10 @@ import { Image } from "astro:assets";
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Concept from '../components/Concept.astro';
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <Layout title="Thesis 2024">
@@ -11,7 +15,7 @@ import Concept from '../components/Concept.astro';
 			<h1 class="text-5xl italic">THESIS 2024</h1>
 		</section>
 		<section>
-			<h1 class="text-5xl">Who are we?</h1>
+			<h1 class="text-5xl">{t('title.candidates')}</h1>
 			<ul role="list" class="link-card-grid flex-col lg:flex-row">
 				<Card
 					img="https://avatars.githubusercontent.com/u/90853097?v=4"
@@ -34,7 +38,7 @@ import Concept from '../components/Concept.astro';
 			</ul>
 		</section>
 		<section>
-			<h1>Technologies we master</h1>
+			<h1>{t('title.skills')}</h1>
 			<Image
 				draggable="false"
 				src="https://skillicons.dev/icons?i=nodejs,react,nextjs,vite,svelte,express,ts,tailwind,rust,ipfs,python,c,cs,dotnet,java,hibernate,spring,sqlite,postgres,mongo,redis,docker,kubernetes,git&perline=6"
@@ -43,7 +47,7 @@ import Concept from '../components/Concept.astro';
 				class="m-auto" />
 		</section>
 		<section>
-			<h1>Our thesis ideas / proposals</h1>
+			<h1>{t('title.ideas')}</h1>
 			<ul role="list" class="ideas-card-grid">
 				<Concept
 					title="AI-driven Pen Testing Tool"
