@@ -1,7 +1,7 @@
 ---
-import {languages} from '../i18n/ui';
+import i18next from 'i18next';
 ---
-<div class="flex gap-x-2 bg-blue-500 rounded p-2 text-white">
+<div class="flex gap-x-2 bg-blue-500 rounded p-2 w-32 text-white">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
         <path fill="currentColor"
               d="m12.87 15.07l-2.54-2.51l.03-.03A17.52 17.52 0 0 0 14.07
@@ -11,11 +11,7 @@ import {languages} from '../i18n/ui';
           22h2zm-2.62 7l1.62-4.33L19.12 17z"
         />
     </svg>
-    <select class="text-white bg-transparent">
-        {Object.entries(languages).map(([lang, label]) => (
-                <option>
-                    {label}
-                </option>
-        ))}
-    </select>
+    <a href={i18next.language === 'en' ? '/' : '/en'}>
+        {i18next.language === 'en' ? 'English' : 'Deutsch'}
+    </a>
 </div>

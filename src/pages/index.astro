@@ -1,13 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Concept from '../components/Concept.astro';
-
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Concept from "../components/Concept.astro";
 import Contact from "../components/Contact.astro";
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("de");
 ---
 
 <Layout title="Thesis 2024">

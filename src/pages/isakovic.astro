@@ -1,8 +1,11 @@
 ---
-import {ViewTransitions} from 'astro:transitions';
+import { changeLanguage } from "i18next";
+import { ViewTransitions } from "astro:transitions";
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import Listing from "../components/Listing.astro";
+
+changeLanguage("de");
 ---
 <Layout title="Isakovic Arim">
     <main class="xl:flex grid place-items-center justify-center gap-x-10 h-screen dark:text-white m-20 xl:m-auto">
