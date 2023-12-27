@@ -1,4 +1,5 @@
 {
+  "title.main": "THESIS",
   "title.candidates": "Candidates",
   "title.skills": "Technologies we master",
   "title.ideas": "Our thesis ideas / proposals",
@@ -11,9 +12,16 @@
 
   "ideas.1.title": "AI driven penetration testing tool",
   "ideas.1.description": "A tool that automates penetration testing and presents the results in an easy-to-understand form.",
+  "ideas.1.features": "Test any application for security vulnerabilities.\n\nUsing AI, the tool keeps itself updated on the newest security leaks and methods used by hackers.\n\nDisplays the results in a clean and readable manner.",
+  "ideas.1.integrations": "Keep your workflow secure by integrating the tool into your CI/CD pipeline.\n\nIntegrate the tool into your IDE to get real-time feedback on your code's security.",
+
   "ideas.2.title": "Marketing Tool with adaptive AI",
   "ideas.2.description": "Finds strategies and reacts to past campaigns in order to make the best marketing decision.",
+  "ideas.2.features": "Adapt to the company or industry running the application and provide valuable decisions about the marketing strategies taken.\n\nWith adaptive AI, the tool reacts and adapts to realtime changes from past campaigns, current trends and adjust its strategies accordingly.",
+
   "ideas.note": "We are open to your ideas as well!",
+
+  "timeframe.internship": "If possible in the course of an internship with a duration of 4 - 8 weeks.",
 
   "isakovic.about": "Hi! My name is Arim and I enjoy being virtual.\n\nI am currently attending the higher technical college in leonding, austria.\n\nWith my ongoing four years of informatics I have learned how to write robust code, work in teams and navigate my way around different software fields.\n\nWhen I have time, I usually immerse myself in the world of video-games.\n\nHere are a few technologies I have been working with recently:"
 }

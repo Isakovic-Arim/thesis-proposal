@@ -1,25 +1,23 @@
 ---
-import { changeLanguage } from "i18next";
+import { t, changeLanguage } from "i18next";
 import Layout from "../layouts/Layout.astro";
 
 changeLanguage("de");
 ---
 
 <Layout title="Pen Testing">
-    <main class="w-1/2 m-auto p-20">
+    <main class="w-1/2 m-auto p-20 dark:text-white">
         <header class="text-center mb-10">
-            <h1 class="text-5xl underline">AI-driven Pen Testing Tool</h1>
+            <h1 class="text-5xl underline">{t('ideas.1.title')}</h1>
         </header>
         <section class="mb-10">
             <h1 class="text-3xl">Features</h1>
-            <p class="text-xl">Test any application for security vulnerabilities.</p>
-            <p class="text-xl">Using AI, the tool keeps itself updated on the newest security leaks and methods used by hackers.</p>
-            <p class="text-xl">Displays the results in a clean and readable manner.</p>
+            <article class="text-xl">{t('ideas.1.features')}</article>
         </section>
         <section>
-            <h1 class="text-3xl">Possible use cases / Integrations</h1>
+            <h1 class="text-3xl">Integrations</h1>
             <h2 class="text-2xl">CI/CD</h2>
-            <p>Keep your workflow secure by integrating the tool into your CI/CD pipeline.</p>
+            <article>{t('ideas.1.integrations')}</article>
         </section>
     </main>
 </Layout>

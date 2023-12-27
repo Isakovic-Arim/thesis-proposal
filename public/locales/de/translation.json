@@ -1,4 +1,5 @@
 {
+  "title.main": "DIPLOMARBEIT",
   "title.candidates": "Kandidaten",
   "title.skills": "Technologien die wir meistern",
   "title.ideas": "Unsere Ideen / Themen",
@@ -11,9 +12,16 @@
 
   "ideas.1.title": "KI gestütztes Pen Testing Tool",
   "ideas.1.description": "Ein Tool, das die Penetrationstests automatisiert und die Ergebnisse in einer leicht verständlichen Form präsentiert.",
+  "ideas.1.features": "Testen Sie jede Anwendung auf Sicherheitslücken. Mithilfe von KI hält sich das Tool über die neuesten Sicherheitslücken und die von Hackern verwendeten Methoden auf dem Laufenden.\n\nZeigt die Ergebnisse sauber und lesbar an.",
+  "ideas.1.integrations": "Sorgen Sie für einen sicheren Workflow, indem Sie das Tool in Ihre CI/CD-Pipeline integrieren.\n\nIntegrieren Sie das Tool in Ihre IDE, um Echtzeit-Feedback zur Sicherheit Ihres Codes zu erhalten.\n\n",
+
   "ideas.2.title": "Marketing Tool mit adaptiver KI",
   "ideas.2.description": "Findet Strategien und reagiert auf vergangene Ereignisse, um die besten Marketing-Entscheidungen zu treffen.",
+  "ideas.2.features": "Passen Sie sich an das Unternehmen oder die Branche an, die die Anwendung betreibt, und liefern Sie wertvolle Entscheidungen über die gewählten Marketingstrategien.\n\nMit adaptiver KI reagiert und passt sich das Tool an Echtzeitänderungen vergangener Kampagnen und aktueller Trends an und passt seine Strategien entsprechend an.",
+
   "ideas.note": "Wir nehmen gerne auch Themen an, welche wir angeboten bekommen!",
+
+  "timeframe.internship": "Nach Möglichkeit im Rahmen eines Praktikums ab 4 - 8 Wochen.",
 
   "isakovic.about": "Hallo! Mein Name ist Arim und ich genieße es, virtuell zu sein.\n\nIch besuche derzeit die Höhere Technische Hochschule in Leonding, Österreich.\n\nWährend meiner vierjährigen Informatikausbildung habe ich gelernt, robusten Code zu schreiben, in Teams zu arbeiten und mich in verschiedenen Softwarebereichen zurechtzufinden.\n\nWenn ich Zeit habe, tauche ich normalerweise in die Welt der Videospiele ein.\n\nHier sind einige Technologien, mit denen ich in letzter Zeit gearbeitet habe:"
 }

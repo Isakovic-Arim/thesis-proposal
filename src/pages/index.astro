@@ -13,7 +13,7 @@ const root = i18next.language === "de" ? "/" : "/en/";
 <Layout title="Thesis 2024">
 	<main class="dark:text-white">
 		<section class="grid place-items-center h-screen">
-			<h1 class="text-5xl italic">THESIS 2024</h1>
+			<h1 class="text-5xl italic">{t('title.main')} 2024</h1>
 		</section>
 		<section class="w-1/2 min-h-screen m-auto">
 			<h1 class="text-5xl text-center mb-10">{t('title.candidates')}</h1>
@@ -38,7 +38,7 @@ const root = i18next.language === "de" ? "/" : "/en/";
 				/>
 			</ul>
 		</section>
-		<section class="min-h-screen">
+		<section class="mt-40 min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.skills')}</h1>
 			<Image
 				draggable="false"
@@ -47,7 +47,7 @@ const root = i18next.language === "de" ? "/" : "/en/";
 				width="900" height="600"
 				class="m-auto" />
 		</section>
-		<section class="w-1/2 m-auto min-h-screen">
+		<section class="w-1/2 m-auto mt-40 min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.ideas')}</h1>
 			<ul role="list" class="ideas-card-grid mb-5">
 				<Concept
@@ -61,17 +61,17 @@ const root = i18next.language === "de" ? "/" : "/en/";
 					href={root + "marketing"}
 				/>
 			</ul>
-			<p class="text-lg">{t('ideas.note')}</p>
+			<p class="text-lg text-center">{t('ideas.note')}</p>
 		</section>
 		<section class="w-1/2 m-auto min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.timeframe')}</h1>
-			<p class="text-xl text-center">1. Jul - 10. Sep</p>
+			<p class="text-xl text-center mb-5">1. Jul - 10. Sep <span class="font-bold">2024</span></p>
+			<p class="text-xl text-center">{t('timeframe.internship')}</p>
 		</section>
 	</main>
-	<hr>
-	<footer class="bg-gray-900 text-lg text-white p-4 h-96">
+	<footer class="bg-gray-900 dark:bg-cyan-50 dark:text-black text-lg text-white p-4 h-96">
 		<h1 class="text-3xl font-bold mb-4">{t('title.contact')}</h1>
-		<div class="flex justify-between w-full">
+		<div class="lg:flex grid gap-y-4 justify-between w-full">
 			<Contact name="Isakovic Arim" email="arim.isakovic@gmail.com" phone="+43 650 630 20 84" />
 			<Contact name="Andrei Stana" email="" phone="" />
 			<Contact name="Francisco Davila-Mendez" email="" phone="" />
