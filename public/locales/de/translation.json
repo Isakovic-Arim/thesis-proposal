@@ -1,5 +1,19 @@
 {
   "title.candidates": "Kandidaten",
   "title.skills": "Technologien die wir meistern",
-  "title.ideas": "Unsere Ideen / Themen"
+  "title.ideas": "Unsere Ideen / Themen",
+  "title.timeframe": "Zeitraum",
+  "title.contact": "Kontakt",
+
+  "candidate.isakovic": "Abenteuerer. Problemlöser. Schüler.",
+  "candidate.stana": "",
+  "candidate.davila-mendez": "Ich bin ein leidenschaftlicher Programmierer, der Logik in Codezeilen verwebt, um Ideen in digitale Realität umzusetzen.",
+
+  "ideas.1.title": "KI gestütztes Pen Testing Tool",
+  "ideas.1.description": "Ein Tool, das die Penetrationstests automatisiert und die Ergebnisse in einer leicht verständlichen Form präsentiert.",
+  "ideas.2.title": "Marketing Tool mit adaptiver KI",
+  "ideas.2.description": "Findet Strategien und reagiert auf vergangene Ereignisse, um die besten Marketing-Entscheidungen zu treffen.",
+  "ideas.note": "Wir nehmen gerne auch Themen an, welche wir angeboten bekommen!",
+
+  "isakovic.about": "Hallo! Mein Name ist Arim und ich genieße es, virtuell zu sein.\n\nIch besuche derzeit die Höhere Technische Hochschule in Leonding, Österreich.\n\nWährend meiner vierjährigen Informatikausbildung habe ich gelernt, robusten Code zu schreiben, in Teams zu arbeiten und mich in verschiedenen Softwarebereichen zurechtzufinden.\n\nWenn ich Zeit habe, tauche ich normalerweise in die Welt der Videospiele ein.\n\nHier sind einige Technologien, mit denen ich in letzter Zeit gearbeitet habe:"
 }

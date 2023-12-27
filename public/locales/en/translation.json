@@ -1,5 +1,19 @@
 {
   "title.candidates": "Candidates",
   "title.skills": "Technologies we master",
-  "title.ideas": "Our thesis ideas / proposals"
+  "title.ideas": "Our thesis ideas / proposals",
+  "title.timeframe": "Timeframe",
+  "title.contact": "Contact",
+
+  "candidate.isakovic": "Explorer. Problem solver. Student.",
+  "candidate.stana": "",
+  "candidate.davila-mendez": "I'm a passionate programmer, weaving logic into lines of code to turn ideas into digital reality.",
+
+  "ideas.1.title": "AI driven penetration testing tool",
+  "ideas.1.description": "A tool that automates penetration testing and presents the results in an easy-to-understand form.",
+  "ideas.2.title": "Marketing Tool with adaptive AI",
+  "ideas.2.description": "Finds strategies and reacts to past campaigns in order to make the best marketing decision.",
+  "ideas.note": "We are open to your ideas as well!",
+
+  "isakovic.about": "Hi! My name is Arim and I enjoy being virtual.\n\nI am currently attending the higher technical college in leonding, austria.\n\nWith my ongoing four years of informatics I have learned how to write robust code, work in teams and navigate my way around different software fields.\n\nWhen I have time, I usually immerse myself in the world of video-games.\n\nHere are a few technologies I have been working with recently:"
 }

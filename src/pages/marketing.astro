@@ -1,0 +1,21 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "../layouts/Layout.astro";
+
+changeLanguage("de");
+---
+
+<Layout title="Dynamic Marketing">
+    <main class="w-1/2 m-auto p-20">
+        <header class="text-center mb-10">
+            <h1 class="text-5xl underline">AI-driven Marketing Tool</h1>
+        </header>
+        <section class="mb-10">
+            <h1 class="text-3xl">Features</h1>
+            <p class="text-xl">Adapt to the company or industry running the application
+                and provide valuable decisions about the marketing strategies taken.</p>
+            <p class="text-xl">With adaptive AI, the tool reacts and adapts to realtime
+                changes from past campaigns, current trends and adjust its strategies accordingly.</p>
+        </section>
+    </main>
+</Layout>

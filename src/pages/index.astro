@@ -4,40 +4,41 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Concept from "../components/Concept.astro";
 import Contact from "../components/Contact.astro";
-import { t, changeLanguage } from "i18next";
+import i18next, { t, changeLanguage } from "i18next";
 
 changeLanguage("de");
----
 
+const root = i18next.language === "de" ? "/" : "/en/";
+---
 <Layout title="Thesis 2024">
 	<main class="dark:text-white">
 		<section class="grid place-items-center h-screen">
 			<h1 class="text-5xl italic">THESIS 2024</h1>
 		</section>
-		<section class="w-1/2 h-screen m-auto">
+		<section class="w-1/2 min-h-screen m-auto">
 			<h1 class="text-5xl text-center mb-10">{t('title.candidates')}</h1>
 			<ul role="list" class="link-card-grid flex-col lg:flex-row">
 				<Card
 					img="https://avatars.githubusercontent.com/u/90853097?v=4"
-					href="isakovic"
+					href={root + "isakovic"}
 					title="Isakovic Arim"
-					body="Explorer. Problem solver. Student."
+					body={t('candidate.isakovic')}
 				/>
 				<Card
 					img="https://avatars.githubusercontent.com/u/63104332?v=4"
 					href="https://github.com/Andrei-Stana"
 					title="Andrei Stana"
-					body=""
+					body={t('candidate.stana')}
 				/>
 				<Card
 					img="https://avatars.githubusercontent.com/u/85924847?v=4"
 					href="https://github.com/Francisco-Davila"
 					title="Francisco Davila-Mendez"
-					body="I'm a passionate programmer, weaving logic into lines of code to turn ideas into digital reality."
+					body={t('candidate.davila-mendez')}
 				/>
 			</ul>
 		</section>
-		<section id="skills" class="h-screen">
+		<section class="min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.skills')}</h1>
 			<Image
 				draggable="false"
@@ -46,35 +47,30 @@ changeLanguage("de");
 				width="900" height="600"
 				class="m-auto" />
 		</section>
-		<section id="ideas" class="w-1/2 m-auto h-screen">
+		<section class="w-1/2 m-auto min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.ideas')}</h1>
-			<ul role="list" class="ideas-card-grid">
+			<ul role="list" class="ideas-card-grid mb-5">
 				<Concept
-					title="AI-driven Pen Testing Tool"
-					body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nisl vitae nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl."
-					href="#"
+					title={t('ideas.1.title')}
+					body={t('ideas.1.description')}
+					href={root + "pen-test"}
 				/>
 				<Concept
-					title="Project 2"
-					body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nisl vitae nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl."
-					href="#"
-				/>
-				<Concept
-					title="Project 3"
-					body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nisl vitae nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl."
-					href="#"
-				/>
-				<Concept
-					title="Project 4"
-					body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nisl vitae nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl. Sed vitae nisl euismod, aliquam nisl vitae, aliquam nisl."
-					href="#"
+					title={t('ideas.2.title')}
+					body={t('ideas.2.description')}
+					href={root + "marketing"}
 				/>
 			</ul>
+			<p class="text-lg">{t('ideas.note')}</p>
+		</section>
+		<section class="w-1/2 m-auto min-h-screen">
+			<h1 class="text-5xl text-center mb-10">{t('title.timeframe')}</h1>
+			<p class="text-xl text-center">1. Jul - 10. Sep</p>
 		</section>
 	</main>
 	<hr>
 	<footer class="bg-gray-900 text-lg text-white p-4 h-96">
-		<h1 class="text-lg font-bold">Kontaktieren Sie uns!</h1>
+		<h1 class="text-3xl font-bold mb-4">{t('title.contact')}</h1>
 		<div class="flex justify-between w-full">
 			<Contact name="Isakovic Arim" email="arim.isakovic@gmail.com" phone="+43 650 630 20 84" />
 			<Contact name="Andrei Stana" email="" phone="" />
