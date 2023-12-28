@@ -10,14 +10,15 @@ changeLanguage("de");
 
 const root = i18next.language === "de" ? "/" : "/en/";
 ---
+
 <Layout title="Thesis 2024">
 	<main class="dark:text-white">
 		<section class="grid place-items-center h-screen">
-			<h1 class="text-5xl italic">{t('title.main')} 2024</h1>
+			<h1 class="text-9xl">{t('title.main')} 2024</h1>
 		</section>
-		<section class="w-1/2 min-h-screen m-auto">
-			<h1 class="text-5xl text-center mb-10">{t('title.candidates')}</h1>
-			<ul role="list" class="link-card-grid flex-col lg:flex-row">
+		<section class="w-full sm:w-3/4 md:w-1/2 min-h-screen mx-auto">
+			<h1 class="text-3xl sm:text-4xl md:text-5xl text-center mb-10">{t('title.candidates')}</h1>
+			<ul role="list" class="flex flex-col sm:flex-row gap-4">
 				<Card
 					img="https://avatars.githubusercontent.com/u/90853097?v=4"
 					href={root + "isakovic"}
@@ -38,18 +39,20 @@ const root = i18next.language === "de" ? "/" : "/en/";
 				/>
 			</ul>
 		</section>
-		<section class="mt-40 min-h-screen">
+		<section class="mt-10 md:mt-40 min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.skills')}</h1>
 			<Image
 				draggable="false"
 				src="https://skillicons.dev/icons?i=nodejs,react,nextjs,vite,svelte,express,ts,tailwind,rust,ipfs,python,c,cs,dotnet,java,hibernate,spring,sqlite,postgres,mongo,redis,docker,kubernetes,git&perline=6"
 				alt="our skills"
-				width="900" height="600"
-				class="m-auto" />
+				width="900"
+				height="600"
+				class="mx-auto"
+			/>
 		</section>
-		<section class="w-1/2 m-auto mt-40 min-h-screen">
+		<section class="w-full md:w-1/2 mx-auto mt-10 md:mt-40 min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.ideas')}</h1>
-			<ul role="list" class="ideas-card-grid mb-5">
+			<ul role="list" class="ideas-card-grid mb-5 md:gap-4">
 				<Concept
 					title={t('ideas.1.title')}
 					body={t('ideas.1.description')}
@@ -63,20 +66,21 @@ const root = i18next.language === "de" ? "/" : "/en/";
 			</ul>
 			<p class="text-lg text-center">{t('ideas.note')}</p>
 		</section>
-		<section class="w-1/2 m-auto min-h-screen">
+		<section class="w-full md:w-1/2 mx-auto min-h-screen">
 			<h1 class="text-5xl text-center mb-10">{t('title.timeframe')}</h1>
 			<p class="text-xl text-center mb-5">1. Jul - 10. Sep <span class="font-bold">2024</span></p>
 			<p class="text-xl text-center">{t('timeframe.internship')}</p>
 		</section>
 	</main>
-	<footer class="bg-gray-900 dark:bg-cyan-50 dark:text-black text-lg text-white p-4 h-96">
-		<h1 class="text-3xl font-bold mb-4">{t('title.contact')}</h1>
-		<div class="lg:flex grid gap-y-4 justify-between w-full">
+	<footer class="bg-gray-900 dark:bg-cyan-50 dark:text-black text-lg text-white p-4 h-96 flex flex-col justify-center items-center">
+		<h1 class="text-2xl md:text-3xl font-bold mb-4">{t('title.contact')}</h1>
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-20 mb-4">
 			<Contact name="Isakovic Arim" email="arim.isakovic@gmail.com" phone="+43 650 630 20 84" />
-			<Contact name="Andrei Stana" email="" phone="" />
+			<Contact name="Andrei Stana" email="andreistana1412@gmail.com" phone="+43 690 10045559" />
 			<Contact name="Francisco Davila-Mendez" email="" phone="" />
 		</div>
 	</footer>
+	
 </Layout>
 
 <style>
