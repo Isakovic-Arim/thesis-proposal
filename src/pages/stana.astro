@@ -8,42 +8,43 @@ import i18next, { t, changeLanguage } from "i18next";
 changeLanguage("de");
 ---
 
-<Layout title="Isakovic Arim">
+<Layout title="Andrei Stana">
     <main class="xl:flex grid place-items-center justify-center gap-x-10 h-screen dark:text-white m-20 xl:m-auto">
         <div class="xl:w-1/2 lg:w-2/3 md:w-full mt-28">
             <header class="flex items-center flex-col lg:flex-row gap-4 mb-4">
                 <a href={i18next.language === 'de' ? '/' : '/en'} class="text-4xl lg:text-2xl animate-bounce">&lt;</a>
-                <h1 class="text-3xl lg:text-4xl">Isakovic Arim</h1>
+                <h1 class="text-3xl lg:text-4xl">Andrei Stana</h1>
                 <hr class="w-7/12 lg:w-full">
             </header>
             <section class="text-lg">
                 <article>
-                    { t("isakovic.about") }
+                    { t("stana.about") }
                 </article>
                 <div class="md:flex grid grid-cols-2 lg:grid-cols-3 justify-between mb-10">
                     <ul class="flex flex-col">
-                        <Listing content="Java"/>
-                        <Listing content="Spring"/>
-                        <Listing content="C#"/>
-                        <Listing content="ASP.NET Core"/>
+                        <Listing content="Java / Quarkus"/>
+                        <Listing content="C# / ASP.NET Core"/>
+                        <Listing content="Python"/>
+                        <Listing content="NodeJS / Express"/>
+                        <Listing content="Hibernate"/>
                     </ul>
                     <ul class="flex flex-col">
-                        <Listing content="Rust"/>
+                        <Listing content="Python"/>
                         <Listing content="React"/>
                         <Listing content="TypeScript"/>
                     </ul>
                     <ul class="flex flex-col">
-                        <Listing content="Mon goDB"/>
+                        <Listing content="Azure Cosmos DB"/>
                         <Listing content="Oracle"/>
-                        <Listing content="PostgreSQL"/>
-                        <Listing content="Hibernate"/>
+                        <Listing content="DerbyDB"/>
+                        <Listing content="MongoDB"/>
                     </ul>
                 </div>
             </section>
         </div>
         <div class="mt-6 lg:mt-0">
             <Image transition:name="profile" transition:animate="slide"
-                   src='https://avatars.githubusercontent.com/u/90853097?v=4'
+                   src='https://avatars.githubusercontent.com/u/63104332?v=4'
                    alt="GitHub profile"
                    width="250" height="250"
                    class="rounded mb-2"

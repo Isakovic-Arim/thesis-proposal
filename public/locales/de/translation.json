@@ -7,7 +7,7 @@
   "title.contact": "Kontakt",
 
   "candidate.isakovic": "Abenteuerer. Problemlöser. Schüler.",
-  "candidate.stana": "",
+  "candidate.stana": "Meine herausragendste Fähigkeit liegt in meiner Kreativität. Ich schätze es, Probleme stets aus vielfältigen Blickwinkeln zu betrachten, um die optimalen Lösungen zu entwickeln.",
   "candidate.davila-mendez": "Ich bin ein leidenschaftlicher Programmierer, der Logik in Codezeilen verwebt, um Ideen in digitale Realität umzusetzen.",
 
   "ideas.1.title": "KI gestütztes Pen Testing Tool",
@@ -23,5 +23,6 @@
 
   "timeframe.internship": "Nach Möglichkeit im Rahmen eines Praktikums ab 4 - 8 Wochen.",
 
-  "isakovic.about": "Hallo! Mein Name ist Arim und ich genieße es, virtuell zu sein.\n\nIch besuche derzeit die Höhere Technische Hochschule in Leonding, Österreich.\n\nWährend meiner vierjährigen Informatikausbildung habe ich gelernt, robusten Code zu schreiben, in Teams zu arbeiten und mich in verschiedenen Softwarebereichen zurechtzufinden.\n\nWenn ich Zeit habe, tauche ich normalerweise in die Welt der Videospiele ein.\n\nHier sind einige Technologien, mit denen ich in letzter Zeit gearbeitet habe:"
-}
+  "isakovic.about": "Hallo! Mein Name ist Arim und ich genieße es, virtuell zu sein.\n\nIch besuche derzeit die Höhere Technische Hochschule in Leonding, Österreich.\n\nWährend meiner vierjährigen Informatikausbildung habe ich gelernt, robusten Code zu schreiben, in Teams zu arbeiten und mich in verschiedenen Softwarebereichen zurechtzufinden.\n\nWenn ich Zeit habe, tauche ich normalerweise in die Welt der Videospiele ein.\n\nHier sind einige Technologien, mit denen ich in letzter Zeit gearbeitet habe:",
+  "stana.about":"Hallo :D. Mein Name ist Andrei, aber ihr könnt mich auch Andi nennen. Wie meine beiden Kollegen besuche ich die HTBLA Leonding im vierten Jahrgang. Während meiner Ausbildung konnte ich wertvolle Fähigkeiten wie Software Engineering, Teamarbeit, Zeitmanagement und Qualitätssicherung erlernen. In meiner Freizeit erkunde ich gerne neue Technologien, spiele Gitarre und verbringe Zeit mit meinem Hund, dem ich gerne von meinen Programmierherausforderungen erzähle :)"
+} 
