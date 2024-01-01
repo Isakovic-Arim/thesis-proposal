@@ -1,0 +1,30 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import Listing from "../components/Listing.astro";
+import i18next, { t, changeLanguage } from "i18next";
+
+changeLanguage("de");
+---
+
+<Layout title="Francisco Davila">
+    <main class="xl:flex grid place-items-center justify-center gap-x-10 h-screen dark:text-white m-20 xl:m-auto">
+        <div class="mt-6 lg:mt-0">
+            <Image transition:name="profile" transition:animate="slide"
+                   src='https://avatars.githubusercontent.com/u/85924847?v=4'
+                   alt="GitHub profile"
+                   width="250" height="250"
+                   class="rounded mb-2"
+            />
+            <div class="flex gap-x-2 items-center">
+                <a transition:animate="slide" href="https://www.linkedin.com/in/francisco-davila-mendez-a823732a2/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+                <a transition:animate="slide" href="https://github.com/Francisco-Davila"><img src="https://skillicons.dev/icons?i=github" /></a>
+                <a transition:animate="slide" href="/cv/Lebenslauf-Davila-Francisco.pdf"
+                   class="flex justify-between bg-black text-white dark:bg-white dark:text-black rounded p-3 h-12 w-2/3 text-lg">
+                    Resume
+                </a>
+            </div>
+        </div>
+    </main>
+</Layout>
