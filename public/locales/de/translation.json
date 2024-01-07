@@ -1,7 +1,7 @@
 {
   "title.main": "DIPLOMARBEIT",
   "title.candidates": "Kandidaten",
-  "title.skills": "Technologien die wir meistern",
+  "title.skills": "Technologien, die wir meistern",
   "title.ideas": "Unsere Ideen / Themen",
   "title.timeframe": "Zeitraum",
   "title.contact": "Kontakt",
@@ -12,19 +12,19 @@
 
   "ideas.1.title": "KI gestütztes Pen Testing Tool",
   "ideas.1.description": "Hält sich mit Unterstützung von künstlicher Intelligenz und Internetzugriff über die neuesten Sicherheitslücken und die von Hackern verwendeten Methoden auf dem Laufenden.",
-  "ideas.1.features": "Kann jede Anwendung überprüfen.\n\nErstellt einen Bericht über die Sicherheit und kritische Schwachstellen der Anwendung.",
-  "ideas.1.integrations.CI/CD": "Kann auch als CI/CD Integration entwickelt werden, um für eine stets sicheren Entwicklungszyklus zu sorgen.",
+  "ideas.1.features": "Überprüft eine gewählte Anwendung auf Sicherheitslücken.\n\nHält sich mit Hilfe von künstlicher Intelligenz und Internetzugriffs immer auf dem neuesten Stand bezüglich Hackerangriffen und entdeckten Schwachstellen.",
+  "ideas.1.integrations.CI/CD": "Kann auch als CI/CD Integration entwickelt werden, um für einen stets sicheren Entwicklungszyklus zu sorgen.",
   "ideas.1.integrations.IDE": "Integration kann auch in der IDE stattfinden, um Echtzeit-Feedback zur Sicherheit des geschriebenen Codes zu erhalten.",
 
   "ideas.2.title": "Marketing Tool mit adaptiver KI",
   "ideas.2.description": "Findet Strategien und reagiert auf vergangene Ereignisse, um die besten Marketing-Entscheidungen zu treffen.",
-  "ideas.2.features": "Passt sich an das Unternehmen oder die Branche an, die die Anwendung betreibt, und liefert wertvolle Entscheidungen über die gewählten Marketingstrategien.",
+  "ideas.2.features": "Passt sich an das Unternehmen oder die Branche an, welche die Anwendung betreibt und liefert wertvolle Bewertungen über die gewählten Marketingstrategien.\n\nVergangene Ereignisse werden analysiert und die besten Entscheidungen für die Zukunft vorgeschlagen.\n\nDurch Internetzugriff kann das Tool mit den neuesten Trends mithalten und auch in diesem Aspekt Vorschläge liefern.",
 
   "ideas.note": "Wir nehmen gerne auch Themen an, welche wir angeboten bekommen!",
 
   "timeframe.internship": "Nach Möglichkeit im Rahmen eines Praktikums ab 4 - 8 Wochen.",
 
-  "isakovic.about": "Hallo! Mein Name ist Arim und ich genieße es, virtuell zu sein.\n\nIch besuche derzeit die Höhere Technische Hochschule in Leonding, Österreich.\n\nWährend meiner vierjährigen Informatikausbildung habe ich gelernt, robusten Code zu schreiben, in Teams zu arbeiten und mich in verschiedenen Softwarebereichen zurechtzufinden.\n\nWenn ich Zeit habe, tauche ich normalerweise in die Welt der Videospiele ein.\n\nHier sind einige Technologien, mit denen ich in letzter Zeit gearbeitet habe:",
+  "isakovic.about": "Hallo! Mein Name ist Arim und ich genieße es, virtuell zu sein. Ich besuche derzeit die Höhere Technische Lehranstalt in Leonding. Während meiner vierjährigen Informatikausbildung habe ich gelernt, robusten Code zu schreiben, in Teams zu arbeiten und mich in verschiedenen Softwarebereichen zurechtzufinden. Wenn ich Zeit habe, tauche ich normalerweise in die Welt der Videospiele ein oder beschäftige mich mit dezentralen Systemen. Hier sind einige Technologien, mit denen ich in letzter Zeit gearbeitet habe:",
   "stana.about":"Hallo :D. Mein Name ist Andrei, aber ihr könnt mich auch Andi nennen. Wie meine beiden Kollegen besuche ich die HTBLA Leonding im vierten Jahrgang. Während meiner Ausbildung konnte ich wertvolle Fähigkeiten wie Software Engineering, Teamarbeit, Zeitmanagement und Qualitätssicherung erlernen. In meiner Freizeit erkunde ich gerne neue Technologien, spiele Gitarre und verbringe Zeit mit meinem Hund, dem ich gerne von meinen Programmierherausforderungen erzähle :)",
   "davila.about": ""
 } 

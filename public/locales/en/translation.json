@@ -12,19 +12,19 @@
 
   "ideas.1.title": "AI driven penetration testing tool",
   "ideas.1.description": "Stays up to date on the latest security vulnerabilities and methods used by hackers with the support of artificial intelligence and Internet access.",
-  "ideas.1.features": "Test any application for security vulnerabilities.\n\nPrepares a report on the security and critical vulnerabilities of the application.\n\nDisplays the results in a clean and readable manner.",
+  "ideas.1.features": "Checks a selected application for security vulnerabilities.\n\nAlways stays up to date on hacker attacks and discovered vulnerabilities using artificial intelligence and Internet access.",
   "ideas.1.integrations.CI/CD": "Can also be developed as a CI/CD integration to ensure an always secure development cycle.",
   "ideas.1.integrations.IDE": "Integration can also take place in the IDE to get real-time feedback on the security of the code written.",
 
   "ideas.2.title": "Marketing Tool with adaptive AI",
   "ideas.2.description": "Finds strategies and reacts to past campaigns in order to make the best marketing decision.",
-  "ideas.2.features": "Adapt to the company or industry running the application and provide valuable decisions about the marketing strategies taken.\n\nWith adaptive AI, the tool reacts and adapts to realtime changes from past campaigns, current trends and adjust its strategies accordingly.",
+  "ideas.2.features": "Adapts to the company or industry that operates the application and provides valuable reviews about the chosen marketing strategies.\n\nWith adaptive AI, the tool reacts and adapts to realtime changes from past campaigns and delivers useful advice.\n\nInternet access allows the tool to keep up with the latest trends and provide suggestions in this aspect as well.",
 
   "ideas.note": "We are open to your ideas as well!",
 
   "timeframe.internship": "If possible in the course of an internship with a duration of 4 - 8 weeks.",
 
-  "isakovic.about": "Hi! My name is Arim and I enjoy being virtual.\n\nI am currently attending the higher technical college in leonding, austria.\n\nWith my ongoing four years of informatics I have learned how to write robust code, work in teams and navigate my way around different software fields.\n\nWhen I have time, I usually immerse myself in the world of video-games.\n\nHere are a few technologies I have been working with recently:",
+  "isakovic.about": "Hello! My name is Arim and I enjoy being virtual. I am currently attending the Higher Technical College in Leonding. During my four years of computer science training, I learned to write robust code, work in teams and navigate various software areas. When I have time, I usually delve into the world of video games or work on decentralized systems. Here are some technologies I've been working with recently:",
   "stana.about":"Hello :D. My name is Andrei, but you can also call me Andi. Like my two colleagues, I am in my fourth year at HTBLA Leonding. During my schooling I was able to learn valuable skills such as software engineering, teamwork, time management and quality assurance. In my free time, I like to explore new technologies, play guitar and spend time with my dog, who I love to tell about my programming challenges :)",
   "davila.about": ""
 
